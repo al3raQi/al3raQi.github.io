@@ -28,7 +28,7 @@
 </div>
 </p>
 
-## <p align="center">al3raqihide.github.io	
+## <p align="center">al3raQihide.github.io	
 <p align="center">
 <img src="./photo/PrivaterRpo.png" alt="al3raQihide" width="20%" />
 </p>
