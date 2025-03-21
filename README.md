@@ -1,4 +1,4 @@
-### <p align="center">al3raQihide Jailbreak's Repo
+### <p align="center">al3raQi Roothide Jailbreak's Repo
 
 	
 <p align="center">
@@ -30,5 +30,5 @@
 
 ## <p align="center">al3raQi.github.io	
 <p align="center">
-<img src="./photo/PrivaterRpo.png" alt="al3raQihide" width="20%" />
+<img src="./photo/PrivaterRpo.png" alt="al3raQi Roothide" width="20%" />
 </p>
