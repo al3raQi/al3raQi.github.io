@@ -1,0 +1,81 @@
+Package: com.al3raqe.iq.glass.qi
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Themes
+Maintainer: al3raQe Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
+Filename: ./debs//com.al3raqe.iq.glass.qi_1.0.1_iphoneos-arm64e.deb
+Size: 193934
+MD5sum: cdaac3aed4c345767bca065ffcccab14
+SHA1: 0a2483b16cd002e40a2bbf579e3b3fc7d100220e
+SHA256: 209d9c92151f47cdbf2b55e954bb7a2ff5a0f3c318a832ce7722d8123e6ea359
+SHA512: bef3d21aaaa8b0fadb222958e3476d8dc15da855aed2eebd48016582a5ae7710698f9b7008e5ec8bcf05e110aaf5399ecf5c627cbb8df1590d2b391295a2c7f8
+Description: Great masks for your icons! ثيم أنعكاس الزجاج
+Name: IQ-Glass-QI
+Author: al3raQe
+
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm64e
+Version: 7.10.0
+Section: Utilities
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs//com.exile90.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 2500454
+MD5sum: 9a4bf92134b092ef4a71fd3f5c953f7a
+SHA1: 41b6ad8adb9174e5369526107029b301716abdcc
+SHA256: 4fea3b025c4267d511d8ee9645f1aa65e926a7e684a5d689656e22154624342b
+SHA512: 3f6c8a0057946f6efd634a76c634eaee664e03118282b4bf0e4066f8e6808a3fcbc98d52a3a47f462c4183088d039fb7e3745cca1c287f3950a96e815809cd05
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Name: iCleaner Pro
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/Icons/iCleaner.png
+
+Package: com.netskao.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-8
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 88
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: ./debs//com.netskao.filzacrack_1.1-8_iphoneos-arm64e.deb
+Size: 6718
+MD5sum: 2edb9afe6f9fe621142dc56b4bdde5d0
+SHA1: 4ff52cbe75306ad58eb58d219e5cb509826ea9f5
+SHA256: fc0139b05ccc818473502c2bc757efcbf923d2ea875e88dd4b07129a81d735ba
+SHA512: 56c5ab74dadfb62d8536e9e23220648a8a1813b8eaa9235d63e3e1a4065ae896000cbc4a6950d7ef979e00e7a2f7a6ece33126a2fd218fcbb4c07782b5c970ce
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza unlock full functionality, the main program please install in the official source
+Name: Filza Crack
+Author: Netskao
+SileoDepiction: https://jailrepo.initnil.com/Depictions/com.netskao.filzacrack.json
+
+Package: me.lau.atria
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Section: Tweaks
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs//me.lau.atria_1.4.1_iphoneos-arm64e.deb
+Size: 274506
+MD5sum: d0fde55d1a698f4a0a8f046d01e5145f
+SHA1: 493ed2caa4d57c0c862c7c19832982d44777b1e4
+SHA256: 95dca746cbe04d4d6f8f202ec7226ca0f0e4e6cb7fee22ac53208f039a0e7eff
+SHA512: b20c1ac7525bee1e13ec7147a8f85b2d513f9c6c3c2dc9fd417cd910200eb243fd9e3467398647f16d20ce33ab8ba028ea7068e557431b8272809ca6eba1db95
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Name: Atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Depiction: https://chariz.com/get/atria
+
