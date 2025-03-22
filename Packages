@@ -1,17 +1,572 @@
-Package: com.al3raqe.iq.glass.qi
+Package: com.al3raqi.iq.glass.qi
 Architecture: iphoneos-arm64e
-Version: 1.0.1
+Version: 1.87.1
+Section: Themes
+Maintainer: al3raQi Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
+Filename: ./debs//com.al3raqi.iq.glass.qi_1.87.1_iphoneos-arm64e-2.deb
+Size: 195902
+MD5sum: b88daeb18126e750ec0a9a0db790b018
+SHA1: 75924a1151ec2b3d6c9dca71f7caa7a6fba784ec
+SHA256: 72dcf414f530053e45fa2cb0adeedc3f536ea110eda598a2b2a295ae00b6ab87
+SHA512: 0a4879e554d46ca4326e01c7831a891a29b59963c114c20437b96d7d55f2830cd7738a7df78620370b6237a89d3d9fee4aa5b35ded6cb43e7e957dee52ea26ac
+Description: Great theme masks for your icons!
+Name: IQ-Glass-QI
+Author: al3raQe
+Icon: https://al3raqi.github.io/photo/al3raQee.png
+Depiction: https://al3raqi.github.io/photo/IQ-Glass-QI.jpg
+
+Package: ch.xxtou.hudapp.jb
+Architecture: iphoneos-arm64e
+Version: 1.12.0
+Section: Tweaks
+Maintainer: Lessica 
+Installed-Size: 428
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: ./debs//ch.xxtou.hudapp.jb_1.12.0_iphoneos-arm64e.deb
+Size: 163032
+MD5sum: ef4d725b21b34d51669ead99d9fde8d7
+SHA1: 6a2ccb8720c5cadfc905cea12c5a1aa18f7b7213
+SHA256: 462e505d710b059a065c16ca40b6063baf6e86d9f4a490ae3ce8bc7c0fab8aba
+SHA512: 4da66cb4a6d548e2da38fb432eec9a47e6699e5c229bd038dd5c55eb12d8ba95403dfae1b79d406c81e14472f028ace6dda0d1c3e96bbd352f4dec2f07803db2
+Description: Troll your speed, but jailbroken.
+Name: TrollSpeed JB
+Author: al3raQe
+
+Package: com.al3raqe.iq-xxx-qi
+Architecture: iphoneos-arm64e
+Version: 1.87.1
 Section: Themes
 Maintainer: al3raQe Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
-Filename: ./debs//com.al3raqe.iq.glass.qi_1.0.1_iphoneos-arm64e.deb
-Size: 193934
-MD5sum: cdaac3aed4c345767bca065ffcccab14
-SHA1: 0a2483b16cd002e40a2bbf579e3b3fc7d100220e
-SHA256: 209d9c92151f47cdbf2b55e954bb7a2ff5a0f3c318a832ce7722d8123e6ea359
-SHA512: bef3d21aaaa8b0fadb222958e3476d8dc15da855aed2eebd48016582a5ae7710698f9b7008e5ec8bcf05e110aaf5399ecf5c627cbb8df1590d2b391295a2c7f8
-Description: Great masks for your icons! ثيم أنعكاس الزجاج
-Name: IQ-Glass-QI
+Filename: ./debs//com.al3raqe.iq-xxx-qi_1.87.1_iphoneos-arm64e.deb
+Size: 10877632
+MD5sum: c7c9264c876c0720b39fa3baa32bef4b
+SHA1: 5336cf90bc4a12675061c2236dc5d72d932ecfc1
+SHA256: 705f9d2a1984664373c2f02c7c84c277db7bed0d8862a7aeb32cb895c36991e0
+SHA512: 6d215aee083d6f60737090257bfb9c19512377857c64bacd6f54bf602db30b09264ebf4f7464acb6063d82c3681fe55566f5fa4ffe3ded2299f61ffe6aaedca3
+Description: Great theme masks for your icons!
+Name: IQ-xXx-QI
+Author: al3raQe
+Icon: https://al3raqi.github.io/photo/al3raQee.png
+Depiction: https://al3raqi.github.io/photo/IQ-xXx-IQ.jpg
+
+Package: com.al3raqe.storeswitcher
+Architecture: iphoneos-arm64e
+Version: 1.87.1
+Section: Tweaks
+Maintainer: al3raQe Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15), mobilesubstrate
+Filename: ./debs//com.al3raqe.storeswitcher_1.87.1_iphoneos-arm64e.deb
+Size: 102912
+MD5sum: 3e35a541dea315608f6f413c55730fb3
+SHA1: 386b623a43498af0abf1e4cecacad33de869fa10
+SHA256: 6267781f2dec448cef2b30c4315ad0574b2b738f8e537f145123314bdbf56a29
+SHA512: 47563695e85724f6eb4bc847fdc12d6a6b8bcd430206b4ffcd6b889bd6cd7da81a33fcb1b035842965c2fcfec9db1d5ef847239bc0f31c97014e6460c4d3c6f6
+Description: AppStore account switcher
+Author: al3raQe
+Depiction: AppStore account switcher
+Name: StoreSwitcher
+
+Package: com.al3raqi.iq.just4me.iq
+Architecture: iphoneos-arm64e
+Version: 1.87.1
+Section: Themes
+Maintainer: al3raQe Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
+Filename: ./debs//com.al3raqi.iq.just4me.iq_1.87.1_iphoneos-arm64e-1.deb
+Size: 9859936
+MD5sum: 0c2feefb604db20c2bd6e4503169fff1
+SHA1: 37c9a7f54decf72a652be0e3bedc71cd90ea8241
+SHA256: 9ed40ed52989fec356aad842375fbca66e86cd802c43a56ba0febef237e16fbc
+SHA512: d0cf3180d731a84d0d4d3557115bf4c25460457b3b4a94d859827ef56d3892a5cd8bc71964159ab37050bcfe86549fe0eeaee4f9a503efc75156c82dac67b3f7
+Description: Great theme masks for your icons!
+Name: IQ-Just-4-Me-QI
+Author: al3raQe
+Icon: https://al3raqi.github.io/photo/al3raQee.png
+Depiction: https://al3raqi.github.io/photo/Just4Me.jpg
+
+Package: com.brend0n.nopastedfrom
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//com.brend0n.nopastedfrom_0.0.1_iphoneos-arm64e.deb
+Size: 4292
+MD5sum: 96bdbddea24baa48c7b9e5415fd831fb
+SHA1: d54a906a5c08735b91cf15b30111e922c36247d1
+SHA256: faa23cf5161c03fff7d716e7b7caa4f22ecf84c4fa72223403e42387394b0617
+SHA512: 24335a6b50f01a2e52b84f910b16f41accb0b78f08573bde182eeaacc1ef8ee0c71fdc867922537fbd013a37b022b97d264e255c087f68de9953ec9ed00b4a7f
+Description: No "XX pasted from YY"
+Name: NoPastedFrom
 Author: al3raQe
 
+Package: com.chr1s.newtab
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: Chr1s
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs//com.chr1s.newtab_1.1_iphoneos-arm64e.deb
+Size: 6976
+MD5sum: 4e5b22d060a986c92f40fb2437fc9a47
+SHA1: 9aa3dc29e45ed6c13cf5a9654eac868917a57727
+SHA256: c0f2453380ab347da7b64b2cacc2aab786af308e77498428b4e76177318345e3
+SHA512: e8dc3a4518c35c18fcefd40508398b42438c6006fb1c789ffc9997b0e8e38704321b83af177b390aceed13c1261c15121cc11cdf5004c772812c3cb685861d53
+Description: Add newtab shortcut to safari toolbar
+Name: NewTab
+Author: al3raQe
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.chr1s.newtab
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.chr1s.newtab/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.chr1s.newtab.json
+
+Package: com.creaturecoding.shuffle
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Section: Tweaks
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs//com.creaturecoding.shuffle_1.6.2_iphoneos-arm64e.deb
+Size: 319526
+MD5sum: fa83abd702ed8c99f8c5abe93bfe8b74
+SHA1: e79c7ac138e888d987a692b857376da5c7b81787
+SHA256: a7c40562ff7ca0fd553e5e2fc49bba4e8830d8a1a3259d06f1c80a0a55b5568c
+SHA512: c1d7a7b09ef2bb212ee961b2777e7bfd94b8723df92c5821cb57bf4618bd2508dc4fe26dd8c6327b53a56188ad08c8012ef3b84e6f7fe94e3f83e2f33bcaec32
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Name: Shuffle
+Author: al3raQe
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm64e
+Version: 7.10.0
+Section: Utilities
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs//com.exile90.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 2500454
+MD5sum: 9a4bf92134b092ef4a71fd3f5c953f7a
+SHA1: 41b6ad8adb9174e5369526107029b301716abdcc
+SHA256: 4fea3b025c4267d511d8ee9645f1aa65e926a7e684a5d689656e22154624342b
+SHA512: 3f6c8a0057946f6efd634a76c634eaee664e03118282b4bf0e4066f8e6808a3fcbc98d52a3a47f462c4183088d039fb7e3745cca1c287f3950a96e815809cd05
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Name: iCleaner Pro
+Author: al3raQe
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/Icons/iCleaner.png
+
+Package: com.netskao.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-8
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 88
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: ./debs//com.netskao.filzacrack_1.1-8_iphoneos-arm64e.deb
+Size: 6718
+MD5sum: 2edb9afe6f9fe621142dc56b4bdde5d0
+SHA1: 4ff52cbe75306ad58eb58d219e5cb509826ea9f5
+SHA256: fc0139b05ccc818473502c2bc757efcbf923d2ea875e88dd4b07129a81d735ba
+SHA512: 56c5ab74dadfb62d8536e9e23220648a8a1813b8eaa9235d63e3e1a4065ae896000cbc4a6950d7ef979e00e7a2f7a6ece33126a2fd218fcbb4c07782b5c970ce
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza unlock full functionality, the main program please install in the official source
+Name: Filza Crack
+Author: al3raQe
+SileoDepiction: https://jailrepo.initnil.com/Depictions/com.netskao.filzacrack.json
+
+Package: com.noisyflake.betteralarm
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Section: Tweaks
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 748
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs//com.noisyflake.betteralarm_1.4.1_iphoneos-arm64e.deb
+Size: 314870
+MD5sum: 89d9bd0b50f9ae1fbaae4e90a13a58ae
+SHA1: ac52aa1d4e25a67a27e0f1f2fd1aa01cc45b159a
+SHA256: 1d77177d8d09a72eb290451073583e67850e94952ddb92888c659bef528cc212
+SHA512: 0b51f498188cce3d07e9303d8a6bbb3217015e0dc7937e673a52ee01d75551a4df0defba3201c82cdec19cf78909ff7fb46b3b9e9b815fb2ad8f349fb7c2ee42
+Description: A beautiful timer and alarm screen
+Tag: cydia::commercial, compatible_min::ios14.0
+Author: al3raQe
+Name: betterAlarm
+Icon: https://img.chariz.cloud/icon/betteralarm/icon@3x.png
+Depiction: https://chariz.com/buy/betteralarm
+
+Package: com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Version: 1.1.3-3-1+debug
+Section: System
+Maintainer: opa334
+Installed-Size: 416
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs//com.opa334.libsandy_1.1.3-3-1+debug.deb
+Size: 20950
+MD5sum: 08232087924064f25bb55cf652bb308e
+SHA1: 2ac0b33ba74db5ae9108b705c6329b66241179fb
+SHA256: 69f3dc5ab72ca278d24d65d54c73b583c03c81685dd6a651a94f0cacfed68b3f
+SHA512: 5b17d7abb6af72fc9d09ca84671043ecbdce1dd93bcf9ea3801b3f56e7bd515aec73948d217efd9d394cc589c3d935d1a8d96f493dbbbacbebb31d05cfe07012
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Name: libSandy
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Author: al3raQe
+
+Package: com.p2kdev.simplebattery
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 472
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//com.p2kdev.simplebattery_1.2.1_iphoneos-arm64e.deb
+Size: 50396
+MD5sum: 00a78e39a3b318219dc755a0574393bd
+SHA1: 4d287d73d93607277baa5fe0e8ea6abb55f0fa5a
+SHA256: 69bf3c014cf13e2d57fce11e8f575f5bdebdddd24d3cbc126cc74412012056e2
+SHA512: 5bf6d20a7a2a0d2913b78ce9f8792386af9c230264f61ce4af8502e630e4422ed28290d053b0eaea66acf9b56d942662ff655a984a3ca83874f876d656b9d143
+Description: Simple Battery for Notched Devices!
+Name: SimpleBattery
+Author: al3raQe
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.simplebattery/icon.png
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.simplebattery
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.simplebattery.json
+
+Package: com.p2kdev.underdock
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 680
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.restiveconch.actionbar,com.udevs.dockx
+Filename: ./debs//com.p2kdev.underdock_1.3_iphoneos-arm64e.deb
+Size: 72798
+MD5sum: e959cb125273877d9b342c7f24954ef4
+SHA1: 029ec4008d3ff2977e46cac10a9b47df14d49d85
+SHA256: feb2262e1413fd08348c25a27193ee5e0da11a2f8e36eab68bf98c9025d361d5
+SHA512: 1558f927b8fcdef0df5f48b42cec2901b266725cd96e00e3f77933015d24a646d9c3b0258e77c0bd2c13f17132cfbe37000a14fd6cec644ccebd9d8cee65c266
+Description: Useful actions on the Keyboard Dock View!
+Name: UnderDock
+Author: al3raQe
+
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm64e
+Version: 0.8.1-4
+Section: Apps
+Maintainer: PostBox Team <getpostboxapp@gmail.com>
+Filename: ./debs//com.simplycode.PostBox_0.8.1-4-arm64e.deb
+Size: 4089952
+MD5sum: 389b434ee2152a6fae52182a1b9b23f2
+SHA1: dcc845507acb8129a81bbe8139f4159e728655d5
+SHA256: a54eeda08184bc0c02b08ab414041030f1856c1353874b660f997bb33a40a1a8
+SHA512: bb4c1228722e2a12c88b963ffde12768045f082303e9d082eb99907cad23bf8747d7e933d9aefa60bf275c4446cea6a9f00fb03e35dc61c0fc8afd9e38efdc43
+Homepage: https://postbox.news
+Description: News, package lists, and repo lists, all community centered.
+Name: PostBox
+Icon: https://postbox.news/depicts/app/icon.png
+Depiction: https://postbox.news/depicts/app
+SileoDepiction: https://postbox.news/depicts/app/fancydeps.json
+Author: al3raQe
+
+Package: com.spark.autounlockx
+Architecture: iphoneos-arm64e
+Version: 1.1.0-rootless
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 416
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs//com.spark.autounlockx_1.1.0-arm64e.deb
+Size: 72304
+MD5sum: 955329cff34e325250623b1b5768b681
+SHA1: 4c689433f711a7c824b007e32ef3729f0cfbbd7f
+SHA256: ac26981d4a6ca7aff75c267a946bd17089743af3c82b86a919a9ae51820980b9
+SHA512: 23cb99e437487b6b75988d1db35f99f60417da5a979c2cba76e4abd0173c6c7e86f28de48fad84fe291a8a3cd485215d8ed12a6b0478aa71601592fdb67ca11d
+Description: Unless there are notifications, the device will automatically unlock when valid Face ID is detected
+Name: AutoUnlockX
+Author: al3raQe
+
+Package: com.spark.snowboard.effects
+Architecture: iphoneos-arm64e
+Version: 1.2.2-Beta2-rootless
+Section: SnowBoard Extensions
+Maintainer: Spark
+Installed-Size: 412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs//com.spark.snowboard.effects_1.2.2-Beta2-rootless_iphoneos-arm64e.deb
+Size: 45650
+MD5sum: 2115a06739452ed3539c2ac87659e4d3
+SHA1: 1217cf34be145cd08e7fea6ac349849147aa9bd8
+SHA256: 3d5852133f6cdedae7a1cfb64c71d08374d4c6c117217c2f861afafc9f12f72f
+SHA512: 108f8bd6b814490f44efa91fcece7e210f90d86397f348e61844b566ef858d5cb947b88b1932da191594dd2d97df7731a51c40dabd7d467adb0a6a3ef9ff3568
+Description: Icon Effects for SnowBoard
+Name: SnowBoard Icon Effects Extension
+Author: al3raQe
+
+Package: com.spark.snowboard.masks
+Architecture: iphoneos-arm64e
+Version: 1.2.2-Beta2-rootless
+Section: SnowBoard Extensions
+Maintainer: Spark
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs//com.spark.snowboard.masks_1.2.2-Beta2-rootless_iphoneos-arm64e.deb
+Size: 25500
+MD5sum: 63df1099afff6235d012d8ab2ecefc9c
+SHA1: 489a2fa4077e4b1842554b20cbf3c771edb78e57
+SHA256: 5e18dd7680baaddbf0756f6c7691daf01eb5b4c4f725b163327dd1b0f17d3653
+SHA512: 88f5e1f994f2830f4896c4c475c08c5878576352f88183b37e1008374658b2c944d86cc58e43598b4d60cf37368a0da551455aa6b4fd5874e24bf396be7edf90
+Description: Icon masks for SnowBoard
+Name: SnowBoard Icon Masks Extension
+Author: al3raQe
+
+Package: com.spark.snowboard
+Architecture: iphoneos-arm64e
+Version: 1.5.37-Beta4-rootless
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 3268
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs//com.spark.snowboard_1.5.37-Beta4-rootless_iphoneos-arm64e.deb
+Size: 2590378
+MD5sum: 874b1bf3efa3dfebebd643630834945d
+SHA1: 85dd4afb1d486008673ef4e6dbae94964f89d241
+SHA256: 308a49737070a41216d43850e86b2063526f8c1f90007a17327a3152539c4e83
+SHA512: 7a06a006ca65840645bf346e058e13a884cd792862b94bb12ae56f7bc8dab5a465d8361aeefa07234bb51a0fe2ac7d50c9dd97fa006565899179aad864d231bb
+Description: Snowboard theming engine
+Name: SnowBoard
+Author: al3raQe
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64e
+Version: 4.0.1-4~roothide
+Section: Utilities
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs//com.tigisoftware.filza64bit_4.0.1-4~-arm64e.deb
+Size: 6972652
+MD5sum: 6391c39283f2cc45dcecf101228d4e28
+SHA1: 718d5c9bb34d0c749ca311e4917736804fe217ec
+SHA256: 35be3aa392b06cd7ed53dd3aa05bf5c3ddaa126ee692b33fba67321fc6cec28d
+SHA512: bcd8b044a4b877f5a2873b009ac40f0d61293ab01cf61326950a6137bfb55bb1445af0b395023ce910abc238456c39c5baedc4379ab2bc9904b16850746a12c8
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: al3raQe
+
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm64e
+Version: 1.8.0
+Section: Tweaks (Piracy)
+Maintainer: Lilliana
+Installed-Size: 520
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.2), preferenceloader, com.opa334.altlist
+Filename: ./debs//emt.paisseon.satella_1.8.0-1-arm64e.deb
+Size: 112960
+MD5sum: b43e3b4e541151a19858a6fcd0a0edbb
+SHA1: 05dbbbe905d80b1f57ebce27774b737926612559
+SHA256: 61c57c11f48e7b434ec4e15e63114f7c1fe2bb12c0319baa247f9364d213aa65
+SHA512: b174efd6984f639167a8ac5be452a4fb957b1ff44c8417dd8fabe6e641226ef1b3b7331322fd17a2f10d60b5d75e58f28d40b8f25042e94162f1f1c09c2e2fb3
+Description: Modern in-app purchase cracker
+Name: Satella
+Author: al3raQe
+SileoDepiction: https://paisseon.github.io/depictions/Satella.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
+Icon: https://paisseon.github.io/icons/Satella.png
+
+Package: me.lau.atria
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Section: Tweaks
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs//me.lau.atria_1.4.1_iphoneos-arm64e.deb
+Size: 274506
+MD5sum: d0fde55d1a698f4a0a8f046d01e5145f
+SHA1: 493ed2caa4d57c0c862c7c19832982d44777b1e4
+SHA256: 95dca746cbe04d4d6f8f202ec7226ca0f0e4e6cb7fee22ac53208f039a0e7eff
+SHA512: b20c1ac7525bee1e13ec7147a8f85b2d513f9c6c3c2dc9fd417cd910200eb243fd9e3467398647f16d20ce33ab8ba028ea7068e557431b8272809ca6eba1db95
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: al3raQe
+Name: Atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Depiction: https://chariz.com/get/atria
+
+Package: net.limneos.answeringmachinex-rootless
+Architecture: iphoneos-arm64e
+Version: 2.0-142
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2628
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-182) ,  firmware (>= 11.0)
+Conflicts: net.limneos.audiorecorder (<= 1.7-4)
+Filename: ./debs//net.limneos.answeringmachinex-rootless_2.0-142_iphoneos-arm64e.deb
+Size: 1235368
+MD5sum: ed953d47ae51ba36b64a4aeaf63b61c9
+SHA1: 688bdfc750c7d5b8917f9fd765ba84aefbe9218d
+SHA256: 471981d1f20c7f08ba94650881c48676fe2378e876daa80e0797ac0e736f1ba0
+SHA512: 7fe5bdef09bef46039bdaf97066d46ecbeb81acbf621e9b857e4e506750ae4f9412054f3e2e7576c23f551dfe191ea018400543cbd6f10ab960c6329899baa7f
+Description: AnsweringMachine XS (iOS 11 to 18)
+Name: AnsweringMachine XS (rootless)
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.answeringmachinex
+SileoDepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.answeringmachinex
+Author: al3raQe
+
+Package: net.limneos.audiorecorderdropbox-roothide
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Utilities
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 40103
+Depends: net.limneos.audiorecorderxs(>=4.0-155)
+Filename: ./debs//net.limneos.audiorecorderdropbox-roothide_1.0-arm64e.deb
+Size: 7228026
+MD5sum: 5df703c09f03a766000496dbf8c04cbd
+SHA1: 7e7ed755f66f891e7cdbb67e2f4f4c7b5aad635e
+SHA256: d05226e3465ff07c31c7a5da1b4d44fe5ba00ba35c3c510206678d0608953494
+SHA512: a46abb77b33571296ae466e82bc38cb51086743d03e8a68adf6b2a64506af8a677afe18381654aa783093a2bd4c117c0605ea0d0eade842b93bc25022b2e55a2
+Description: Dropbox addon for AudioRecorder XS
+Name: AudioRecorder Dropbox Addon
+Author: al3raQe
+
+Package: net.limneos.audiorecorderxs
+Architecture: iphoneos-arm64e
+Version: 5.1-12
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 6136
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions-roothide, firmware(>=15.0)
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: ./debs//net.limneos.audiorecorderxs_5.1-12.deb
+Size: 1449212
+MD5sum: 1888768d1e73a64511f4de053799138f
+SHA1: 817cc713df9ca69196c54ab3f64a17526bdd3ee3
+SHA256: b07b5c702259b444d79d3edcd8253897b87b0494756894d548921ca6e8211991
+SHA512: a5747c75fdf365444fe2205e528efcb4a00164328b886b59f00da0026548c55e602b0bfa415632b78e8d36895807974c1c5feb62f39a9f8b9d4eb8a30ef008ea
+Description: Most Advanced iOS Call Recorder Ever!
+Name: AudioRecorder (roothide iOS 15 to 17)
+Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.audiorecorderxs
+SileoDepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.audiorecorderxs
+Author: al3raQe
+
+
+Package: net.limneos.libbulletin
+Architecture: iphoneos-arm64e
+Version: 0.1-148
+Section: Tweaks
+Maintainer: Elias Limneos
+Installed-Size: 332
+Depends: mobilesubstrate
+Filename: ./debs//net.limneos.libbulletin_0.1-148_iphoneos-arm64e.deb
+Size: 41366
+MD5sum: 52a5a60a4fdba43c49469428dd2e8210
+SHA1: 298b068426d1cbc0ad895a1456ce38f862adf29e
+SHA256: 233c36c5af01a2a9b49fc8cd4864132737b0ef32dfa7f4a32cd085dace913cea
+SHA512: e092d5dbb3b45ab82bee512a756dabc8a0129c52215c40b7d0195442321ca88b245c8562aaa7738898ef7ddf25107eec148e5ad988c5f57121a71f701d729edd
+Description: Simple library that displays bulletins
+Name: libbulletin
+Author: al3raQe
+
+Package: net.limneos.simpleactivationactions-roothide
+Architecture: iphoneos-arm64e
+Version: 0.1-1
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs//net.limneos.simpleactivationactions-roothide_0.1-1.deb
+Size: 7214
+MD5sum: 254db6e8f8f06b6cedf7218a4b743e34
+SHA1: 879351d68c98ab5d25f9f94dca0600f8e27bf073
+SHA256: bb6c3a0e63a074310921c8acd101b5ce46af433ff8279c6417f0ff8f0923825d
+SHA512: ffe79d396c91d01bdf23dd6a7742817701ec024d37ffe64a0a2c5ab183bd38f9192881569720f745bb55e0db20363eae76eb9e098dc2249dd7e15a63969bf2ab
+Description: Simple Activation Actions
+ Handles StatusBar actions for simple activation events
+Name: SimpleActivationActions (roothide)
+Author: al3raQe
+
+Package: roothide.patches.filza
+Architecture: iphoneos-arm64e
+Version: 0.4-15
+Section: RootHide Patches
+Maintainer: roothide
+Installed-Size: 268
+Provides: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit(>> 4.0.1-4~roothide), com.tigisoftware.filza64bit(<< 4.0.1-4~roothide)
+Filename: ./debs//roothide.patches.filza_0.4-15_roothide.deb
+Size: 32518
+MD5sum: 0d2b31c71d53ee8809d15467e71ef914
+SHA1: e8e4a732dbd7d9b95ca014daf6b39a21c7b0c3f6
+SHA256: c048a0416474326c86eefe8852c92f16eea44786a127d499a5e9a644b612aa90
+SHA512: d842b1d5b030060205a8b864dff4dda2a99fb9c7a25fe8f243788c332bd9d7624325a8561568190af416a217eed1dcb88abde6ebd53eab05b43c7eda5aa96435
+Description: RootHide Dynamic Patches For Filza
+Name: Patches for Filza 64bit
+Author: al3raQe
+
+Package: ws.hbang.newterm3
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-1042+debug
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 31496
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs//ws.hbang.newterm3_3.0~beta1-1042+debug.deb
+Size: 6628694
+MD5sum: 6990e49ae10bf81442f3c91b6f74628d
+SHA1: 7be7b2b04ec2d81d00229a4b918cca1a236e8db4
+SHA256: 1b6f10525f00d85edd76b597c33187ac2498cd9b260e00d1d63afcd38d8677aa
+SHA512: 755d8fee4d58eaa033fb02b72081b6222d2cb426c197c07d44fc946d5e0d399060844770430a13117c98666731c4b1b3a934d484fafbb583136785b85a3d5398
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Name: NewTerm 3 Beta
+Author: al3raQe
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
