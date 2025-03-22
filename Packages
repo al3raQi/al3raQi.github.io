@@ -35,23 +35,6 @@ Description: Your contacts - with more options!
 Author: 0xkuj
 Name: Contacts Extended
 
-Package: com.al3raqe.appdata
-Architecture: iphoneos-arm64e
-Version: 1.87.1
-Section: Tweaks
-Maintainer: al3raQe Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs//com.al3raqe.appdata.1.87.1-iphoneos-arm64e.deb
-Size: 1965582
-MD5sum: eaf7ae1f1996c54201062066d26bed48
-SHA1: 6f035a19bfef76ad394b054b6e3be9c4030acc49
-SHA256: aaf7fefeaaa92a170a08dd8244ea978a3482176201f99097b5834169717baed8
-SHA512: 40c41c125649cc238a022a3fabcf04d80377778710dcea2b65d62d1ef6cff358cfaba6a7b33d9a61e13a6084a3c415ed786437000e41e28fd53b66fe02b22032
-Description: View and access the data of your apps by either swiping up on the icon or from the force touch menu.
-Name: AppData
-Author: al3raQe
-
 Package: com.leftyfl1p.carbridge13
 Architecture: iphoneos-arm64e
 Version: 2.0.14
