@@ -314,25 +314,6 @@ Name: betterAlarm
 Icon: https://img.chariz.cloud/icon/betteralarm/icon@3x.png
 Depiction: https://chariz.com/buy/betteralarm
 
-Package: com.opa334.libsandy
-Architecture: iphoneos-arm64e
-Version: 1.1.3-3-1+debug
-Section: System
-Maintainer: opa334
-Installed-Size: 416
-Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
-Filename: ./debs//com.opa334.libsandy_1.1.3-3-1+debug.deb
-Size: 20950
-MD5sum: 08232087924064f25bb55cf652bb308e
-SHA1: 2ac0b33ba74db5ae9108b705c6329b66241179fb
-SHA256: 69f3dc5ab72ca278d24d65d54c73b583c03c81685dd6a651a94f0cacfed68b3f
-SHA512: 5b17d7abb6af72fc9d09ca84671043ecbdce1dd93bcf9ea3801b3f56e7bd515aec73948d217efd9d394cc589c3d935d1a8d96f493dbbbacbebb31d05cfe07012
-Description: Securely extend the sandbox of system processes and user applications
-Tag: role::developer
-Name: libSandy
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
-Author: opa334
-
 Package: com.p2kdev.simplebattery
 Architecture: iphoneos-arm64e
 Version: 1.2.1
