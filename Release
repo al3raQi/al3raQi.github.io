@@ -1,0 +1,9 @@
+Origin: al3raQee (Roothide Repo)
+Label: al3raQee (Roothide Repo)
+Suite: stable
+Version: 1.0
+Codename: al3raQee
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: al3raQee (Roothide Repo)
+Icon: https://al3raqi.github.io/photo/al3raQee.png
