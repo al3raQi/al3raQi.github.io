@@ -1,4 +1,4 @@
-# PS4 WebKit Exploit (11.00 – 13.00)
+# PS4 WebKit Exploit Jailbreak (11.00 – 13.00)
 
 A static WebKit exploit chain for the PlayStation 4. Everything runs in the
 console's browser, so any static web host will serve it.
@@ -23,7 +23,7 @@ The chain is selected automatically from the browser's User-Agent.
 
 ## Usage
 
-1. Open the browser on your PS4 and go to https://ps4jb.github.io/
+1. Open the browser on your PS4 and go to https://al3raQi.github.io/
 2. Wait for `CACHED (first run)`. This stores everything in AppCache so later
    runs work offline.
 3. Press X to start.
