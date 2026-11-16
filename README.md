@@ -1,97 +1,127 @@
-# PS4 WebKit Exploit Jailbreak (11.00 – 13.00)
+# afterglow (web)
 
-A static WebKit exploit chain for the PlayStation 4. Everything runs in the
-console's browser, so any static web host will serve it.
+Kernel exploit for the PlayStation 4 on firmware **12.00, 12.02, 12.50, 12.52,
+13.00, 13.02, 13.04, 13.50, 13.52, 14.00 and 14.02**, run from the console's own
+browser. It leaves the kernel readable and writable, `uid 0`, `mmap` handing
+out RWX and `syscall 11` as a kexec gate — so the usual payloads work as they
+do after any other kernel exploit.
 
-Based on SLOPKIT by Jordy, originally written for the PS5. Our team ported it to
-PS4 and brought the `lapse` and `poops` kernel exploits onto it to cover
-firmware up to 13.00.
+afterglow is not Lapse.
 
-## Firmware support
+## You need
 
-The chain is selected automatically from the browser's User-Agent.
+* PS4 on firmware 12.00, 12.02, 12.50, 12.52, 13.00, 13.02, 13.04, 13.50,
+  13.52, 14.00 or 14.02, on your network
+* A machine on the same network with `python3`
 
-| Firmware | Chain | Tested on hardware |
-| -------- | ----- | ------------------ |
-| 11.00 | lapse | Yes |
-| 11.50 | lapse | Yes |
-| 12.00 | lapse | Yes |
-| 12.02 | lapse | Yes |
-| 12.50 | poops | Yes |
-| 12.52 | poops | Yes |
-| 13.00 | poops | Yes |
+Nothing is installed on the console. The pages are static files.
 
-## Usage
+## Running it
 
-1. Open the browser on your PS4 and go to https://al3raQi.github.io/
-2. Wait for `CACHED (first run)`. This stores everything in AppCache so later
-   runs work offline.
-3. Press X to start.
+```sh
+./serve.sh                      # port 8000, or AFTERGLOW_PORT=8080 ./serve.sh
+```
 
-The exploit is not deterministic. A failed attempt usually crashes the browser
-or reboots the console, so just reload and try again. If it keeps failing after
-a lot of reloads, close the browser fully and reopen it.
+Open `http://<host>:8000/` in the console's browser, pick **ps4-hen** or
+**GoldHEN**, press start. Tick *autostart* and it goes by itself after five
+seconds.
 
-Options:
+Each run has to begin on that page. The run page arms the chain only when it
+was reached from there, so a browser restoring its last session cannot set it
+off again with nobody watching.
 
-| Parameter | Effect |
-| --------- | ------ |
-| `?bug=lapse` / `?bug=poops` | Force a chain instead of detecting firmware |
-| `?verbose=1` | Full log lines instead of the compacted form |
-| `?slots=N` | Override the carrier array size |
-| `?payload=1` | Run the payload even if kernel patching was skipped |
+## What is shipped
 
-## How it works
+| File | What it is |
+|---|---|
+| `hen.bin` | ps4-hen `pre-release-main-182`, **already patched** (see below) |
+| `goldhen.bin` | GoldHEN, included with the author's permission |
+| `patchset-1200.bin` … `patchset-1400.bin` | the kernel patches GoldHEN expects to find, one set per firmware |
+| `afterglow.js` | this work |
+| `jb.js`, `ps4_offsets.js` | the raw13g host, trimmed |
+| `core.js`, `mem.js`, `int64.js` | the in-process primitive, by way of that host |
+| `index.html`, `jb.html`, `launch.js`, `style.css`, `meme.png` | the landing page and the run page |
+| `serve.sh` | the local server, with the headers this needs |
+| `cache.appcache`, `make-manifest.sh` | the offline cache and the script that rebuilds it |
 
-`core.js` builds an addrof/fakeobj pair in JavaScriptCore and turns it into
-arbitrary read/write inside the WebProcess. `mem.js` and `int64.js` wrap that
-into a 64-bit memory interface.
+### ps4-hen is patched here
 
-From there `chain_lapse.js` and `chain_poops.js` hit the kernel's async I/O
-syscalls (`aio_submit_cmd`, `aio_multi_delete`, `aio_multi_poll`) for a
-use-after-free, then reclaim the freed object with IPv6 socket options
-(`IPV6_RTHDR`, `IPV6_2292PKTOPTIONS`) to reach kernel read/write.
+Upstream `hen.bin` has a wrong address for `sceSblPfsSetKeys` on 14.00.
+Unpatched, **every app launch freezes the console** and the kernel stays broken
+until you reboot. The copy in this folder already carries the fix:
 
-Post-exploitation runs in order, each step gated on the previous one verifying:
-escalate to root, escape the sandbox through `fd_rdir`/`fd_jdir`, apply the
-firmware's patch blob from `patches/` (read back and byte-checked before it is
-enabled), then map and run `payload.bin`.
+```sh
+md5sum hen.bin                  # 6417a84a72f9c7988f0e33b3ae190542  (patched)
+                                # 9aff7544eddef2f8202f72fc633d2be3  = upstream, do not use
+```
 
-## Hosting it yourself
+If you bring your own build, change `kpayload/source/offsets/1400.c`,
+`sceSblPfsSetKeys_addr` from `0x006272B0` to `0x00627270`. Why, and how it was
+established: `TECHNICAL.md`.
 
-Two things have to be right:
+## If it stops
 
-- `cache.appcache` must be served as `text/cache-manifest`, or the page reports
-  `CACHE FAILED`.
-- The manifest itself should not be cached, or consoles keep running an old
-  build.
+Expect to repeat one now and then. Ten hand-run rounds on 14.00 landed nine
+times; a failure in the WebKit stage costs nothing, so going again is cheap.
+13.52 has fewer runs behind it and no number worth quoting yet.
 
-The included `.htaccess` handles both on Apache. GitHub Pages sets the right
-MIME type but ignores `.htaccess`, so after an update expect a short delay
-before a console picks up the new manifest.
+**All eleven firmwares are confirmed on hardware.** 13.04 ran here on
+05.11.2026 — first attempt, `uid 0`, payload started. 13.00, 13.02 and 13.50
+were confirmed by testers on 06.11.2026, and 12.00, 12.02, 12.50 and 12.52
+on 07.11.2026. 14.02 ran here on 08.11.2026 — `uid 0`, and GoldHEN came up
+with its own services answering.
 
-Note that `cache.appcache` pins a sha256 for every file. If you edit anything,
-regenerate its hash or that entry will be treated as stale.
+The page tells you which of these happened.
+
+| What it says | What it cost | What to do |
+|---|---|---|
+| `exploit failed - please retry (reopen browser)` | nothing — no apm unit spent, no kernel byte written | reopen the browser and go again |
+| nothing at all, for 45 s | same | the watchdog says the same thing; if even that does not appear, the WebProcess is gone — cold start |
+| `the handles are NOT defused` | the chain got far and could not clean up | **do not close the browser** — cold start |
+
+That last one matters. With the handles left armed, the next process exit runs
+`fo_close` into `apmclose` and never completes — and closing the browser *is*
+that exit, so no browser restart will help afterwards.
+
+There is also a failure that cannot be caught. The reclaimed object supplies
+the stack pointer, and the kernel reads it before a single instruction of ours
+runs. When some other kernel allocation wins the hole instead, ring 0 carries
+on with a stack pointer out of a stranger's object and the console dies right
+there — no message, no clean shutdown. Don't run this with anything unsaved on
+the console.
+
+## Reviews wanted
+
+Issues and pull requests welcome, and so is a report that it simply worked. Say
+which model and firmware you tried.
 
 ## Credits
 
-- **Jordy** — SLOPKIT, the PS5 webkit.
-- **GoldHEN team** — `payload.bin` is
-  [GoldHEN](https://github.com/GoldHEN/GoldHEN), redistributed unmodified.
-- The `aio` use-after-free and the IPv6 `pktopts` reclaim strategy behind
-  `lapse` and `poops` are public PS4/PS5 community research. The kernel patch
-  blobs come from published patch sources.
-- Our team — the PS4 port, the kernel chains, the offset tables and the
-  delivery layer.
+* **raw13g** — [raw13g.github.io](https://github.com/raw13g/raw13g.github.io),
+  the host this page grew out of (`jb.js`, `ps4_offsets.js`, the page
+  scaffolding), MIT, see `LICENSE-raw13g`
+* **aminegold0** — [silverps4hen](https://github.com/aminegold0/silverps4hen),
+  the rebuilt version of that host this one actually descends from
+* **jordyidk** — [slopkit](https://github.com/jordyidk/slopkit), the PS5
+  jailbreak the in-process primitive (`core.js`, `mem.js`, `int64.js`)
+  descends from
+* **John** — [janisslsm](https://github.com/janisslsm), testing 12.xx and 13.xx
+* **Shiroe Galleu** — testing 13.02
+* **al-azif** — <https://github.com/al-azif/>
+* **SiSTRo** — GoldHEN
+* **Big_Wadger**
+* **Pharaoh2k**
+* **TheFlow, ChendoChap, abc, AlAzif, LightningMods, @egycnq** — the PS4 kernel
+  patch and sandbox escape lineage these payloads build on
+* everyone who publishes their findings instead of sitting on them
 
-## License
+## Legal
 
-Our port work is MIT, see [LICENSE](LICENSE). Bundled third-party components
-keep their own terms and are excluded from it: the SLOPKIT primitive layer,
-GoldHEN, and the kernel patch blobs.
+Security research on hardware we own. No Sony code is redistributed.
 
-## Disclaimer
-
-For research and homebrew on hardware you own. Kernel exploits can crash a
-console or corrupt storage, so don't run this on a system holding data you
-can't lose. Nothing here enables piracy and no game content is included.
+`afterglow.js` and the patch sets are licensed under the GNU Affero General
+Public License v3.0 or later; see `LICENSE`. The bundled code keeps its own
+terms: `jb.js`, `ps4_offsets.js` and the page scaffolding are raw13g's under
+the MIT license, reproduced in `LICENSE-raw13g`. `core.js`, `mem.js` and
+`int64.js` are a reworked fork of slopkit's primitive and carry no license of
+their own — where they come from is in `TECHNICAL.md`.
